@@ -1,5 +1,13 @@
 {
 .appVersion = "1342";
+DisplayStrings = (
+"ABCDEFGHIJKLMN\012OP/nbspace QRSTUVWXYZ\012",
+dfhkl,
+"abcdefghijklmno\012/space pqrstuvwxyz",
+fgjpqy,
+"/Eng QY/Zdotaccent",
+"/nbspace"
+);
 copyright = "Copyright 2004-2021 The Ephesis Project Authors (https://github.com/googlefonts/ephesis)";
 customParameters = (
 {
@@ -94,41 +102,46 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{686, 24}",
-"{341, 0}",
-"{0, 0}",
-"{-278, -30}"
+"{670, 10}",
+"{500, 10}",
+"{300, 10}",
+"{0, -10}",
+"{-300, -10}"
 );
-ascender = 890;
-capHeight = 707;
+ascender = 500;
+capHeight = 670;
 customParameters = (
 {
 name = typoAscender;
-value = 890;
+value = 900;
 },
 {
 name = typoDescender;
-value = -444;
+value = -400;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
+name = hheaAscender;
+value = 900;
+},
+{
+name = hheaDescender;
+value = -400;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
 name = winAscent;
-value = 890;
+value = 1024;
 },
 {
 name = winDescent;
 value = 444;
-},
-{
-name = hheaAscender;
-value = 890;
-},
-{
-name = hheaDescender;
-value = -444;
 },
 {
 name = strikeoutPosition;
@@ -147,7 +160,15 @@ name = underlineThickness;
 value = 20;
 }
 );
-descender = -444;
+descender = -300;
+guideLines = (
+{
+position = "{58, 670}";
+},
+{
+position = "{151, -307}";
+}
+);
 horizontalStems = (
 20,
 23,
@@ -163,7 +184,7 @@ verticalStems = (
 );
 weightValue = 400;
 widthValue = 5;
-xHeight = 342;
+xHeight = 300;
 }
 );
 glyphs = (
@@ -307,13 +328,14 @@ unicode = 0020;
 {
 color = 3;
 glyphname = nbspace;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 09:02:23 +0000";
 layers = (
 {
 layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 55;
+width = 174;
 }
 );
+widthMetricsKey = space;
 note = nbspace;
 unicode = 00A0;
 },
@@ -4705,7 +4727,7 @@ unicode = 1EBC;
 {
 color = 3;
 glyphname = F;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 04:12:03 +0000";
 layers = (
 {
 hints = (
@@ -5268,7 +5290,7 @@ unicode = 0120;
 {
 color = 3;
 glyphname = H;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 03:59:58 +0000";
 layers = (
 {
 hints = (
@@ -5341,11 +5363,11 @@ nodes = (
 "585 240 OFFCURVE",
 "522 239 CURVE SMOOTH",
 "513 239 OFFCURVE",
-"499 238 OFFCURVE",
+"499 237 OFFCURVE",
 "478 237 CURVE SMOOTH",
 "455 237 LINE",
 "572 453 LINE SMOOTH",
-"621 548 OFFCURVE",
+"623 547 OFFCURVE",
 "645 606 OFFCURVE",
 "643 625 CURVE SMOOTH",
 "638 666 OFFCURVE",
@@ -5436,7 +5458,7 @@ nodes = (
 "377 78 OFFCURVE",
 "391 105 CURVE SMOOTH",
 "424 170 LINE SMOOTH",
-"434 193 OFFCURVE",
+"435 192 OFFCURVE",
 "443 207 OFFCURVE",
 "450 212 CURVE SMOOTH",
 "457 217 OFFCURVE",
@@ -13868,7 +13890,7 @@ unicode = 0058;
 {
 color = 3;
 glyphname = Y;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 08:51:32 +0000";
 layers = (
 {
 hints = (
@@ -13926,11 +13948,8 @@ nodes = (
 "210 -321 OFFCURVE",
 "131 -360 OFFCURVE",
 "59 -360 CURVE SMOOTH",
-"44 -360 OFFCURVE",
-"30 -358 OFFCURVE",
-"17 -355 CURVE SMOOTH",
-"-38 -342 OFFCURVE",
-"-73 -295 OFFCURVE",
+"-15 -360 OFFCURVE",
+"-73 -314 OFFCURVE",
 "-73 -244 CURVE SMOOTH",
 "-73 -212 OFFCURVE",
 "-60 -185 OFFCURVE",
@@ -13947,11 +13966,8 @@ nodes = (
 "-79 -176 OFFCURVE",
 "-98 -215 OFFCURVE",
 "-98 -260 CURVE SMOOTH",
-"-98 -323 OFFCURVE",
-"-55 -375 OFFCURVE",
-"14 -384 CURVE SMOOTH",
-"31 -387 OFFCURVE",
-"48 -388 OFFCURVE",
+"-98 -345 OFFCURVE",
+"-34 -388 OFFCURVE",
 "65 -388 CURVE SMOOTH",
 "146 -388 OFFCURVE",
 "227 -354 OFFCURVE",
@@ -16577,9 +16593,86 @@ unicode = 0062;
 {
 color = 3;
 glyphname = c;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 04:06:21 +0000";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"395 163 OFFCURVE",
+"398 170 OFFCURVE",
+"398 173 CURVE SMOOTH",
+"398 174 OFFCURVE",
+"397 175 OFFCURVE",
+"395 175 CURVE SMOOTH",
+"389 175 OFFCURVE",
+"382 170 OFFCURVE",
+"375 160 CURVE SMOOTH",
+"343 115 OFFCURVE",
+"305 78 OFFCURVE",
+"260 49 CURVE SMOOTH",
+"219 22 OFFCURVE",
+"182 9 OFFCURVE",
+"151 9 CURVE SMOOTH",
+"142 9 OFFCURVE",
+"135 10 OFFCURVE",
+"128 13 CURVE SMOOTH",
+"111 20 OFFCURVE",
+"102 38 OFFCURVE",
+"102 67 CURVE SMOOTH",
+"102 97 OFFCURVE",
+"114 131 OFFCURVE",
+"137 169 CURVE SMOOTH",
+"158 204 OFFCURVE",
+"182 233 OFFCURVE",
+"208 254 CURVE SMOOTH",
+"232 275 OFFCURVE",
+"253 285 OFFCURVE",
+"271 285 CURVE SMOOTH",
+"286 285 OFFCURVE",
+"296 278 OFFCURVE",
+"301 264 CURVE SMOOTH",
+"305 254 OFFCURVE",
+"311 249 OFFCURVE",
+"319 249 CURVE SMOOTH",
+"330 249 OFFCURVE",
+"336 255 OFFCURVE",
+"336 267 CURVE SMOOTH",
+"336 274 OFFCURVE",
+"333 281 OFFCURVE",
+"326 288 CURVE SMOOTH",
+"313 303 OFFCURVE",
+"295 310 OFFCURVE",
+"273 310 CURVE SMOOTH",
+"256 310 OFFCURVE",
+"237 306 OFFCURVE",
+"216 297 CURVE SMOOTH",
+"202 291 OFFCURVE",
+"185 280 OFFCURVE",
+"164 263 CURVE SMOOTH",
+"99 211 OFFCURVE",
+"55 135 OFFCURVE",
+"55 82 CURVE SMOOTH",
+"55 33 OFFCURVE",
+"85 3 OFFCURVE",
+"144 -8 CURVE SMOOTH",
+"171 -13 OFFCURVE",
+"209 1 OFFCURVE",
+"260 32 CURVE SMOOTH",
+"316 66 OFFCURVE",
+"359 107 OFFCURVE",
+"389 154 CURVE SMOOTH"
+);
+}
+);
+};
+guideLines = (
+{
+position = "{398, 300}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -16655,10 +16748,10 @@ nodes = (
 "99 211 OFFCURVE",
 "55 135 OFFCURVE",
 "55 82 CURVE SMOOTH",
-"55 33 OFFCURVE",
-"85 3 OFFCURVE",
-"144 -8 CURVE SMOOTH",
-"171 -13 OFFCURVE",
+"55 23 OFFCURVE",
+"107 -8 OFFCURVE",
+"149 -8 CURVE SMOOTH",
+"186 -8 OFFCURVE",
 "209 1 OFFCURVE",
 "260 32 CURVE SMOOTH",
 "316 66 OFFCURVE",
@@ -16942,9 +17035,14 @@ unicode = 010B;
 {
 color = 3;
 glyphname = d;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 04:08:06 +0000";
 layers = (
 {
+guideLines = (
+{
+position = "{446, 500}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -16982,7 +17080,7 @@ nodes = (
 "428 492 OFFCURVE",
 "423 480 CURVE SMOOTH",
 "410 448 OFFCURVE",
-"388 404 OFFCURVE",
+"389 403 OFFCURVE",
 "359 349 CURVE SMOOTH",
 "329 295 LINE",
 "315 300 OFFCURVE",
@@ -17043,11 +17141,11 @@ nodes = (
 "270 24 OFFCURVE",
 "270 39 CURVE SMOOTH",
 "270 88 OFFCURVE",
-"295 155 OFFCURVE",
+"296 155 OFFCURVE",
 "346 240 CURVE SMOOTH",
 "359 262 LINE",
 "363 258 LINE SMOOTH",
-"365 255 OFFCURVE",
+"366 255 OFFCURVE",
 "367 256 OFFCURVE",
 "368 260 CURVE SMOOTH",
 "369 265 OFFCURVE",
@@ -17071,9 +17169,9 @@ nodes = (
 "78 28 OFFCURVE",
 "78 45 CURVE SMOOTH",
 "78 76 OFFCURVE",
-"96 116 OFFCURVE",
+"93 117 OFFCURVE",
 "132 167 CURVE SMOOTH",
-"185 243 OFFCURVE",
+"192 243 OFFCURVE",
 "264 288 OFFCURVE",
 "321 280 CURVE"
 );
@@ -18811,9 +18909,14 @@ unicode = 0121;
 {
 color = 3;
 glyphname = h;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 04:20:32 +0000";
 layers = (
 {
+guideLines = (
+{
+position = "{231, 500}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -25878,7 +25981,7 @@ unicode = 0078;
 {
 color = 3;
 glyphname = y;
-lastChange = "2021-05-11 18:06:04 +0000";
+lastChange = "2021-07-02 08:48:22 +0000";
 layers = (
 {
 hints = (
@@ -25945,7 +26048,7 @@ nodes = (
 "46 82 OFFCURVE",
 "46 45 CURVE SMOOTH",
 "46 33 OFFCURVE",
-"46 23 OFFCURVE",
+"45 22 OFFCURVE",
 "66 11 CURVE SMOOTH",
 "96 -5 LINE SMOOTH",
 "98 -6 OFFCURVE",
@@ -28570,13 +28673,10 @@ width = 608;
 {
 color = 1;
 glyphname = nine.lf;
-lastChange = "2021-05-11 18:35:22 +0000";
+lastChange = "2021-07-02 09:02:55 +0000";
 layers = (
 {
 components = (
-{
-name = nine;
-},
 {
 name = nine;
 }
@@ -42075,16 +42175,6 @@ width = 315;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Ephesis-Regular";
-},
-{
-name = postscriptFontName;
-value = "Ephesis-Regular";
-}
-);
 interpolationWeight = 400;
 instanceInterpolations = {
 "F7E87FDD-B687-450B-8559-2548A76CA810" = 1;
@@ -42167,5 +42257,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
