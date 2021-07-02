@@ -1,59 +1,51 @@
 {
 .appVersion = "1342";
-copyright = "©2004-2021 by Robert E. Leuschke. All rights reserved.";
+copyright = "Copyright 2004-2021 The Ephesis Project Authors (https://github.com/googlefonts/ephesis)";
 customParameters = (
 {
-name = description;
-value = "Copyright (c) 2004 by Robert E. Leuschke. All rights reserved.";
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
 },
 {
-name = trademark;
-value = "Ephesis is a trademark of Robert E. Leuschke.";
-},
-{
-name = vendorID;
-value = Alts;
-},
-{
-name = panose;
-value = (
-0,
-0,
-4,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-2,
-5,
-7,
-31,
-33,
-35,
-38,
-45,
-60
-);
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+CR,
+NULL,
+space,
+nbspace
+);
 }
 );
 date = "2021-05-11 18:47:43 +0000";
 designer = "Robert E. Leuschke";
-designerURL = "http://www.typesetit.com";
+designerURL = www.typesetit.com;
 disablesNiceNames = 1;
 familyName = Ephesis;
 featurePrefixes = (
@@ -175,6 +167,156 @@ xHeight = 342;
 }
 );
 glyphs = (
+{
+color = 3;
+glyphname = .notdef;
+lastChange = "2021-05-11 18:06:04 +0000";
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = "{0, 16}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{49, 67}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{514, 63}";
+type = Stem;
+},
+{
+horizontal = 1;
+place = "{613, 17}";
+type = Stem;
+},
+{
+place = "{50, 17}";
+type = Stem;
+},
+{
+place = "{102, 52}";
+type = Stem;
+},
+{
+place = "{373, 64}";
+type = Stem;
+},
+{
+place = "{471, 17}";
+type = Stem;
+}
+);
+layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
+paths = (
+{
+closed = 1;
+nodes = (
+"58 0 LINE",
+"479 0 LINE",
+"488 8 LINE",
+"488 621 LINE",
+"479 630 LINE",
+"58 630 LINE",
+"50 620 LINE",
+"50 9 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"67 613 LINE",
+"471 613 LINE",
+"471 16 LINE",
+"67 16 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"102 49 LINE",
+"437 49 LINE",
+"437 577 LINE",
+"102 577 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"154 150 LINE",
+"244 316 LINE",
+"154 479 LINE",
+"173 514 LINE",
+"263 350 LINE",
+"354 514 LINE",
+"373 479 LINE",
+"283 314 LINE",
+"373 150 LINE",
+"354 116 LINE",
+"263 279 LINE",
+"173 116 LINE"
+);
+}
+);
+width = 538;
+}
+);
+note = .notdef;
+},
+{
+color = 3;
+glyphname = CR;
+lastChange = "2021-05-11 18:06:04 +0000";
+layers = (
+{
+layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
+width = 174;
+}
+);
+note = CR;
+},
+{
+color = 3;
+glyphname = NULL;
+lastChange = "2021-05-11 18:06:04 +0000";
+layers = (
+{
+layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
+width = 0;
+}
+);
+note = NULL;
+},
+{
+color = 3;
+glyphname = space;
+lastChange = "2021-05-11 18:06:04 +0000";
+layers = (
+{
+layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
+width = 174;
+}
+);
+note = space;
+unicode = 0020;
+},
+{
+color = 3;
+glyphname = nbspace;
+lastChange = "2021-05-11 18:06:04 +0000";
+layers = (
+{
+layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
+width = 55;
+}
+);
+note = nbspace;
+unicode = 00A0;
+},
 {
 color = 3;
 glyphname = A;
@@ -32669,144 +32811,6 @@ unicode = 27E9;
 },
 {
 color = 3;
-glyphname = space;
-lastChange = "2021-05-11 18:06:04 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 174;
-}
-);
-note = space;
-unicode = 0020;
-},
-{
-color = 3;
-glyphname = nbspace;
-lastChange = "2021-05-11 18:06:04 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 55;
-}
-);
-note = nbspace;
-unicode = 00A0;
-},
-{
-color = 3;
-glyphname = CR;
-lastChange = "2021-05-11 18:06:04 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 174;
-}
-);
-note = CR;
-},
-{
-color = 3;
-glyphname = .notdef;
-lastChange = "2021-05-11 18:06:04 +0000";
-layers = (
-{
-hints = (
-{
-horizontal = 1;
-place = "{0, 16}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{49, 67}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{514, 63}";
-type = Stem;
-},
-{
-horizontal = 1;
-place = "{613, 17}";
-type = Stem;
-},
-{
-place = "{50, 17}";
-type = Stem;
-},
-{
-place = "{102, 52}";
-type = Stem;
-},
-{
-place = "{373, 64}";
-type = Stem;
-},
-{
-place = "{471, 17}";
-type = Stem;
-}
-);
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-paths = (
-{
-closed = 1;
-nodes = (
-"58 0 LINE",
-"479 0 LINE",
-"488 8 LINE",
-"488 621 LINE",
-"479 630 LINE",
-"58 630 LINE",
-"50 620 LINE",
-"50 9 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"67 613 LINE",
-"471 613 LINE",
-"471 16 LINE",
-"67 16 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"102 49 LINE",
-"437 49 LINE",
-"437 577 LINE",
-"102 577 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"154 150 LINE",
-"244 316 LINE",
-"154 479 LINE",
-"173 514 LINE",
-"263 350 LINE",
-"354 514 LINE",
-"373 479 LINE",
-"283 314 LINE",
-"373 150 LINE",
-"354 116 LINE",
-"263 279 LINE",
-"173 116 LINE"
-);
-}
-);
-width = 538;
-}
-);
-note = .notdef;
-},
-{
-color = 3;
 glyphname = Euro;
 lastChange = "2021-05-11 18:06:04 +0000";
 layers = (
@@ -42067,106 +42071,6 @@ layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
 width = 315;
 }
 );
-},
-{
-color = 3;
-glyphname = NULL;
-lastChange = "2021-05-11 18:06:04 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 0;
-}
-);
-note = NULL;
-},
-{
-color = 11;
-glyphname = atingacute;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Aeacute;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Odotmacron;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = odotmacron;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Acircumflextlde;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = acircumflextlde;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = Acircumflexdotabelow;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
-},
-{
-color = 11;
-glyphname = acircumflexdotabelow;
-lastChange = "2021-05-31 23:18:28 +0000";
-layers = (
-{
-layerId = "F7E87FDD-B687-450B-8559-2548A76CA810";
-width = 600;
-}
-);
 }
 );
 instances = (
@@ -42260,7 +42164,8 @@ M = 42;
 };
 };
 manufacturer = "Robert E. Leuschke";
+manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
