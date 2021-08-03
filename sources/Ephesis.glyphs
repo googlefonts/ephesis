@@ -6,7 +6,13 @@ DisplayStrings = (
 "b.\012b,\012e.\012e,\012f.\012f,\012¿f\012f?\012f!\012g.\012g,\012j.\012j,\012k/endash \012o.\012o,\012p.\012p,\012q.\012r.\012r,\012r-\012s.\012s,\012s-\012t-\012v.\012v,\012w.\012w,\012y.\012y,\012y-y\012A-A\012D.\012D,\012F.\012F,\012F;\012F:\012F-\012J.\012J,\012J;\012J:\012J-J\012K-\012-M\012O.\012O,\012P.\012P,\012P-\012R-\012T.\012T,\012T;\012T:\012T-T\012U.\012U,\012U-\012V.\012V,\012V;\012V:\012V-V\012¡V\012W.\012W,\012W;\012W:\012W-W\012X-X\012Y.\012Y,\012Y;\012Y:\012Y-Y\012-Z\012\012",
 "ËÉ/Ebreve/Ecaron Ê/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/Edblgrave Ë/Edotaccent/Edotbelow È/Ehookabove/Einvertedbreve/Emacron/Eogonek/Etilde",
 "/ringcomb.case/Aringacute",
-"DD/commaaccentcomb GT/commaaccentcomb Yd/dotaccentcomb/macroncomb gg/dieresiscomb ot/f_f_l"
+"DD/commaaccentcomb GT/commaaccentcomb Yd/dotaccentcomb/macroncomb gg/dieresiscomb ot/f_f_l",
+"aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adblgrave ä/adotbelow à/ahookabove/ainvertedbreve/amacron/aogonek å/aringacute ã",
+"oó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave/odieresismacron/odotaccentmacron/odotbelow ò/ohookabove/ohorn/ohungarumlaut/oinvertedbreve/omacron/oogonek õ/otildemacron",
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute Ã",
+"/quotesinglbase",
+"/quotedblbase",
+",/quotedblbase"
 );
 classes = (
 {
@@ -21365,13 +21371,10 @@ unicode = 201A;
 },
 {
 glyphname = quotedblbase;
-lastChange = "2021-08-03 00:52:34 +0000";
+lastChange = "2021-08-03 01:29:59 +0000";
 layers = (
 {
 components = (
-{
-name = comma;
-},
 {
 name = comma;
 }
